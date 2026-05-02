@@ -1,5 +1,5 @@
 ---
-title: Talks & Presentations
+title: Talks
 description: A complete timeline of my research presentations, invited seminars, and conference talks.
 ---
 ## Upcoming Presentations
