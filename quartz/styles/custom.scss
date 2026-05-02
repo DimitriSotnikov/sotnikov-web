@@ -1,3 +1,302 @@
+// =============================================================
+//  Art Nouveau styles for Quartz 4
+//  Place at: quartz/styles/custom.scss
+// =============================================================
+
 @use "./base.scss";
 
-// put your custom CSS here!
+$patina:          #4E7268;
+$terracotta:      #C0714A;
+$ochre:           #C9A84C;
+$sage:            #7A9E7E;
+$mauve:           #8B5A6B;
+$sage-20:         #4a7352;
+$sage-30:         #385940;
+$terracotta-light: #d4845d;
+$mauve-light:     #b07d90;
+
+// -------------------------------------------------------------
+//  1. TYPOGRAPHY
+// -------------------------------------------------------------
+.center article {
+  font-size: 1.08rem;
+  line-height: 1.85;
+}
+
+.center h1,
+.center h2,
+.center h3 {
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+.center h1 { font-size: 2.2rem; }
+.center h2 { font-size: 1.6rem; }
+.center h3 { font-size: 1.25rem; }
+
+.page-title {
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+}
+
+// -------------------------------------------------------------
+//  2. DROP CAPS
+// -------------------------------------------------------------
+// .center article > p:first-of-type::first-letter {
+//   font-size: 3.8em;
+//   font-style: italic;
+//   font-weight: 300;
+//   line-height: 0.82;
+//   float: left;
+//   margin: 0.06em 0.1em 0 0;
+//   color: $patina;
+//   text-shadow: 1px 1px 0 rgba($patina, 0.15);
+// }
+
+// -------------------------------------------------------------
+//  3. ORNAMENTAL HR
+//     Must reset border AND background from Quartz's base styles,
+//     then add the ornament via ::after only.
+// -------------------------------------------------------------
+.center article hr {
+  border: none;
+  border-top: none;    // explicit reset for Quartz base
+  background: none;    // Quartz renders hr as a block with bg
+  height: 0;
+  text-align: center;
+  overflow: visible;
+  margin: 2.5rem auto;
+
+  &::after {
+    content: "— ✦ —";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-style: normal;
+    font-size: 1.1rem;
+    letter-spacing: 0.4em;
+    color: $patina;
+    padding: 0 0.5em;
+    background: var(--light); // masks the base hr line behind the text
+  }
+}
+
+// -------------------------------------------------------------
+//  4. BLOCKQUOTES
+// -------------------------------------------------------------
+.center blockquote {
+  border-left: 2px solid $terracotta;
+  margin: 1.8rem 0;
+  padding: 0.4rem 0 0.4rem 1.4rem;
+  font-style: italic;
+  color: var(--darkgray);
+
+  p {
+    margin: 0;
+    font-size: 1.05rem;
+  }
+
+  p:last-child em {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.88rem;
+    color: $terracotta;
+    letter-spacing: 0.05em;
+    font-style: normal;
+  }
+}
+
+// -------------------------------------------------------------
+//  5. LINKS
+// -------------------------------------------------------------
+.center a {
+  color: $patina;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s ease;
+
+  &:hover { color: $terracotta; }
+}
+
+.center a.internal { color: $patina; }
+
+// -------------------------------------------------------------
+//  6. CALLOUT BOXES
+// -------------------------------------------------------------
+.center .callout {
+  border-radius: 4px;
+  border-left-width: 3px;
+}
+
+.center .callout[data-callout="note"],
+.center .callout[data-callout="info"] {
+  border-left-color: $patina;
+  background-color: rgba($patina, 0.06);
+}
+
+.center .callout[data-callout="warning"],
+.center .callout[data-callout="caution"] {
+  border-left-color: $ochre;
+  background-color: rgba($ochre, 0.07);
+}
+
+.center .callout[data-callout="tip"],
+.center .callout[data-callout="hint"] {
+  border-left-color: $sage;
+  background-color: rgba($sage, 0.07);
+}
+
+// -------------------------------------------------------------
+//  7. KATEX MATH BLOCKS
+// -------------------------------------------------------------
+.center .katex-display {
+  background: rgba($ochre, 0.05);
+  border-radius: 4px;
+  padding: 0.8rem 1rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+// -------------------------------------------------------------
+//  8. TAGS
+// -------------------------------------------------------------
+.center a.tag-link {
+  font-size: 0.78rem;
+  padding: 2px 9px;
+  border-radius: 20px;
+  background: rgba($sage, 0.15);
+  color: $sage-20;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: rgba($sage, 0.28);
+    color: $sage-30;
+  }
+}
+
+// -------------------------------------------------------------
+//  9. FOOTER ORNAMENT
+// -------------------------------------------------------------
+.page > footer::before {
+  content: "⁂";
+  display: block;
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.4rem;
+  color: $mauve;
+  margin-bottom: 0.5rem;
+  opacity: 0.6;
+}
+
+// -------------------------------------------------------------
+// 10. DARK MODE
+// -------------------------------------------------------------
+:root[saved-theme="dark"] {
+
+  .center article > p:first-of-type::first-letter {
+    color: $sage;
+    text-shadow: none;
+  }
+
+  .center article hr::after {
+    color: $sage;
+    background: var(--light); // still masks the base line in dark mode
+  }
+
+  .center blockquote {
+    border-left-color: $terracotta-light;
+
+    p:last-child em { color: $terracotta-light; }
+  }
+
+  .center a,
+  .center a.internal {
+    color: $sage;
+
+    &:hover { color: $terracotta-light; }
+  }
+
+  .center .katex-display {
+    background: rgba($patina, 0.1);
+  }
+
+  .page > footer::before {
+    color: $mauve-light;
+  }
+}
+
+
+
+img[alt$="round-profile"] {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid var(--secondary);
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row; /* Force side-by-side */
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem 0 3rem 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+}
+
+.hero-image {
+  flex-shrink: 0; /* Prevents the image from getting squished */
+  
+  img.round-profile {
+    width: 240px; /* Larger size as requested */
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--secondary);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.hero-text {
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    color: var(--dark);
+  }
+
+  p {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: var(--darkgray);
+  }
+}
+
+.hero-links {
+  font-size: 1.1rem;
+  font-weight: 600;
+  
+  a {
+    color: var(--secondary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: var(--tertiary);
+      text-decoration: underline;
+    }
+  }
+}

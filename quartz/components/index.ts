@@ -51,3 +51,12 @@ export {
   Flex,
   ConditionalRender,
 }
+
+// Add this import near the other imports
+import ArtNouveauDivider from "./ArtNouveauDivider"
+
+// Add it to the export block
+export {
+  // ... existing exports ...
+  ArtNouveauDivider,
+}
