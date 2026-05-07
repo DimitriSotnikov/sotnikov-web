@@ -35,7 +35,7 @@ description: A complete timeline of my research presentations, invited seminars,
 ## Seminar Talks
 
 * **Mar 17, 2026** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
-  [**Working Group "Stochastic Methods and Finance"**](https://cermics.enpc.fr/~alfonsi/GTMSF.html), CERMICS, École des Ponts, Paris, France. **[Invited]**
+  [**Working Group "Stochastic Methods and Finance"**](https://cermics.enpc.fr/~alfonsi/GTMSF.html), CERMICS, École des Ponts, Paris, France.
 
 * **Mar 3, 2026** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
   [**DataScience@BI seminar**](https://www.sure-ai.no/event-data-science-bi-seminar-with-dimitri-sotnikov/), BI Norwegian Business School, Oslo, Norway. 
