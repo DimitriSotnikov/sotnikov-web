@@ -9,9 +9,8 @@ title: Home
     <h1>Dimitri Sotnikov</h1>
     <p>
   I am a PhD Candidate at <strong>École Polytechnique (CMAP)</strong> and 
-  <strong>Engie Global Markets</strong>. My research lies at the intersection of 
-  <strong>Path Signatures</strong> and <strong>Stochastic Processes</strong>, with applications in 
-  machine learning, finance, and energy markets.
+  <strong>Engie Global Markets</strong>. My research focuses on 
+  <strong>Path Signatures</strong> and <strong>Stochastic Processes</strong>, with applications in finance, energy markets, and machine learning.
     </p>
     <div class="hero-links">
       <a href="Research">Research</a> • 
@@ -19,7 +18,7 @@ title: Home
       <a href="assets/CV_Sotnikov.pdf">Download CV</a>
     </div>
     <p>
-		  <strong>Contact:</strong> dimitri.sotnikov@gmail.com
+		  <strong>Contact:</strong> dmitrii.sotnikov@polytechnique.edu
 	</p>	
   </div>
 </div>

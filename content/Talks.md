@@ -38,25 +38,25 @@ description: A complete timeline of my research presentations, invited seminars,
   [**Working Group "Stochastic Methods and Finance"**](https://cermics.enpc.fr/~alfonsi/GTMSF.html), CERMICS, École des Ponts, Paris, France. **[Invited]**
 
 * **Mar 3, 2026** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
-  [**DataScience@BI seminar**](https://www.sure-ai.no/event-data-science-bi-seminar-with-dimitri-sotnikov/), BI Norwegian Business School, Oslo, Norway. **[Invited]**
+  [**DataScience@BI seminar**](https://www.sure-ai.no/event-data-science-bi-seminar-with-dimitri-sotnikov/), BI Norwegian Business School, Oslo, Norway. 
 
 * **Feb 24, 2026** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
-  [**Doctoral Seminar at LPSM**](https://www.lpsm.paris/seminaires/semdoc/index), Sorbonne Université, Paris, France. **[Invited]**
+  [**Doctoral Seminar at LPSM**](https://www.lpsm.paris/seminaires/semdoc/index), Sorbonne Université, Paris, France.
 
 * **Dec 10, 2025** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
   [**Seminar of the CMAP MathsFi group**](https://cmap.ip-paris.fr/seminaires/gdt-mathsfi), École Polytechnique, Paris, France.
 
 * **Oct 4, 2025** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
-  **[Global Seminar](https://vega-education.org/global-seminar-eng)**, Vega Institute, Moscow, Russia. **[Invited]** **[Online]**
+  **[Global Seminar](https://vega-education.org/global-seminar-eng)**, Vega Institute, Moscow, Russia. **[Online]**
 
 * **Jun 5, 2025** | *Probabilistic View on the Signature Method*  
-  [**CEREMADE Young Researcher Days**](https://www.ceremade.dauphine.fr/fr/actualites/young-researchers-days-2025.html), Caen, France. **[Invited]**
+  [**CEREMADE Young Researcher Days**](https://www.ceremade.dauphine.fr/fr/actualites/young-researchers-days-2025.html), Caen, France. 
 
 * **May 2, 2025** | *Martingality in the Signature Volatility Model*  
   [**Bachelier Seminar (Doctoral Session)**](https://www.bachelier-paris.fr/programme/), IHP, Paris, France.
 
 * **Feb 6, 2025** | *Heath–Jarrow–Morton meet lifted Heston in energy markets for joint historical and implied calibration*  
-  [**Young Researchers’ Seminar**](https://www.ceremade.dauphine.fr/en/seminars/young-researcher-seminar.html), Université Paris Dauphine-PSL, Paris. **[Invited]**
+  [**Young Researchers’ Seminar**](https://www.ceremade.dauphine.fr/en/seminars/young-researcher-seminar.html), Université Paris Dauphine-PSL, Paris.
 
 * **Dec 11, 2024** | *Martingality in the Signature Volatility Model & Stationary Signatures*  
   [**Seminar of the CMAP MathsFi group**](https://cmap.ip-paris.fr/seminaires/gdt-mathsfi), École Polytechnique, Paris, France.
