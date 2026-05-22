@@ -34,7 +34,7 @@ description: A complete timeline of my research presentations, invited seminars,
 
 ## Seminar Talks
 
-* **May 20, 2026** | *Path-dependent stochastic optimal control via  Riccati equation on the tensor algebra*
+* **May 20, 2026** | *Path-dependent stochastic optimal control via  Riccati equation on the tensor algebra*  
   [**Seminar of the CMAP MathsFi group**](https://cmap.ip-paris.fr/seminaires/gdt-mathsfi), École Polytechnique, Paris, France.
 
 * **Mar 17, 2026** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
