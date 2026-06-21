@@ -8,7 +8,7 @@ description: Research papers, preprints, and journal articles.
   ***Finance and Stochastics***, to appear.
 
 * [Heath–Jarrow–Morton meet lifted Heston in energy markets for joint historical and implied calibration](https://arxiv.org/abs/2501.05975), with Eduardo Abi Jaber, Soukaïna Bruneau, Nathan De Carvalho, and Laurent Tur (2025).
-  ***Quantitative Finance***, to appear.
+  ***Quantitative Finance***, 1–29.
 
 * [Approximation and asymptotics in the superhedging problem for binary options](https://doi.org/10.1007/s10436-024-00454-5), with Sergey Smirnov and Andrey Zanochkin (2024).
   ***Annals of Finance***, 20(3), 1-38.
