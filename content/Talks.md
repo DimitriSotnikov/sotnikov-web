@@ -3,7 +3,6 @@ title: Talks
 description: A complete timeline of my research presentations, invited seminars, and conference talks.
 ---
 ## Upcoming Presentations
-- **Jun 8 -- 10, 2026.** **[French Rough Path workshop](https://indico.math.cnrs.fr/event/15823/)**, Toulouse, France.
 
 - **Jun 29 -- Jul 3, 2026.** **[13th Bachelier World Congress 2026](https://eventi.unibo.it/bachelier)**, Bologna, Italy. 
 
@@ -11,6 +10,9 @@ description: A complete timeline of my research presentations, invited seminars,
   
 ---
 ## Conference Presentations
+
+* **Jun 9, 2026** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
+  **[French Rough Path workshop](https://indico.math.cnrs.fr/event/15823/)**, Toulouse, France.
 
 * **Apr 27, 2026** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
   [**Stochastic Control and Games for Risk & Regulation**](https://sites.google.com/view/conferencehammamet2026/home), Hammamet, Tunisia.
