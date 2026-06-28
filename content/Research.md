@@ -20,6 +20,8 @@ description: Research papers, preprints, and journal articles.
 
 ## Preprints & Working Papers
 
+* [Fourier-Laplace Transforms of the Brownian Signature via Riccati Equations on the Tensor Algebra](https://www.researchgate.net/publication/408180043_Fourier-Laplace_Transforms_of_the_Brownian_Signature_via_Riccati_Equations_on_the_Tensor_Algebra), with Eduardo Abi Jaber and Elie Attal (2026).
+
 * [Malliavin calculus for signatures with applications to finance](https://arxiv.org/abs/2604.22528), with Eduardo Abi Jaber and Clément Rey (2026).
 
 * [Efficient Simulation of Hawkes Processes using their Affine Volterra Structure](https://arxiv.org/abs/2511.13554), with Eduardo Abi Jaber and Elie Attal (2025).
