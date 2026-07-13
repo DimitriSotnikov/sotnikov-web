@@ -20,7 +20,9 @@ description: Research papers, preprints, and journal articles.
 
 ## Preprints & Working Papers
 
-* [Fourier-Laplace Transforms of the Brownian Signature via Riccati Equations on the Tensor Algebra](https://www.researchgate.net/publication/408180043_Fourier-Laplace_Transforms_of_the_Brownian_Signature_via_Riccati_Equations_on_the_Tensor_Algebra), with Eduardo Abi Jaber and Elie Attal (2026).
+* [Stochastic control with signatures via Riccati equations on the tensor algebra](https://arxiv.org/abs/2607.03986), with Eduardo Abi Jaber and Elie Attal (2026).
+
+* [Affine Structure of the Brownian Signature](https://arxiv.org/abs/2606.29622v2), with Eduardo Abi Jaber and Elie Attal (2026).
 
 * [Malliavin calculus for signatures with applications to finance](https://arxiv.org/abs/2604.22528), with Eduardo Abi Jaber and Clément Rey (2026).
 

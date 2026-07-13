@@ -4,12 +4,13 @@ description: A complete timeline of my research presentations, invited seminars,
 ---
 ## Upcoming Presentations
 
-- **Jun 29 -- Jul 3, 2026.** **[13th Bachelier World Congress 2026](https://eventi.unibo.it/bachelier)**, Bologna, Italy. 
-
 - **Sep 1 -- 4, 2026.** **[International Conference on Computational Finance 2026](https://iccf26.web.ox.ac.uk/)**, Oxford, UK.
   
 ---
 ## Conference Presentations
+
+* **Jun 29, 2026** | *Signature volatility model: Martingality and Fourier–Laplace transform*  
+  **[13th Bachelier World Congress 2026](https://eventi.unibo.it/bachelier)**, Bologna, Italy. 
 
 * **Jun 9, 2026** | *Chasing Stationarity: Exponentially Fading Memory Signature*  
   **[French Rough Path workshop](https://indico.math.cnrs.fr/event/15823/)**, Toulouse, France.
