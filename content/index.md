@@ -15,7 +15,7 @@ title: Home
     <div class="hero-links">
       <a href="Research">Research</a> • 
       <a href="Talks">Talks</a> • 
-      <a href="assets/CV_Sotnikov.pdf">Download CV</a>
+      <a href="CV/CV_Sotnikov.pdf">Download CV</a>
     </div>
     <p>
 		  <strong>Contact:</strong> dmitrii.sotnikov@polytechnique.edu

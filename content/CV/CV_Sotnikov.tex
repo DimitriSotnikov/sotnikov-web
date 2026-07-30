@@ -1,0 +1,235 @@
+\documentclass[11pt]{article}
+%\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+%\textheight=10in
+\pagestyle{empty}
+%\raggedbottom
+\raggedright
+\usepackage{fullpage}
+
+\addtolength{\oddsidemargin}{-.2in}
+\addtolength{\evensidemargin}{-.2in}
+\addtolength{\textwidth}{.4in}
+
+%\setlength{\topmargin}{2in}
+
+%\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.5in}
+
+%  \renewcommand{\encodingdefault}{cg}
+  %\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newcommand{\tab}{\hspacet *{2em}}
+
+\newcommand{\area}[2]{\vspace*{-9pt} \begin{verse}\textbf{#1}   #2 \end{verse}  }
+\newcommand{\lineunder}{\vspace*{-8pt} \\ \hspace*{-18pt} \hrulefill \\}
+\newcommand{\header}[1]{{\hspace*{-15pt}\vspace*{6pt} \textsc{#1}} \vspace*{-6pt} \lineunder}
+\newcommand{\employer}[3]{{ \textbf{#1} \hfill #2\\ \textbf{\emph{#3}}\\  }}
+\newcommand{\employerwithguide}[4]{{ \textbf{#1} \hfill(#2)\\ \textbf{\emph{#3}}\\ \emph{#4}  }}
+\newcommand{\project}[3]{{ \textbf{#1} (#2)\\ \emph{#3}\\  }}
+\newcommand{\projectnoguide}[2]{{ \textbf{#1} (#2)\\  }}
+\newcommand{\contact}[2]{
+%\vspace*{-8pt}
+\begin{center}
+{\LARGE \scshape {#1}}\\
+%#2 \lineunder
+#2
+\end{center}
+\vspace*{-8pt}
+}
+\newcommand{\sbt}{\,\begin{picture}(-1,1)(-1,-3)\circle*{2}\end{picture}\ }
+\newcommand{\lbt}{\,\begin{picture}(-1,1)(-1,-3)\circle*{3}\end{picture}\ }
+\newenvironment{achievements}{
+    \begin{list}{$\lbt$}{
+        \topsep 0pt
+        \itemsep 0pt
+        \addtolength{\leftmargin}{-0.1in}
+    }
+}
+{
+    \vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses}[4]{
+ \textbf{#1} \hfill{#2}\\
+    #3\\
+\vspace*{5pt}
+}
+\newcommand{\school}[4]{
+ \textbf{#1} #2 $\bullet$ #3\\
+#4 \\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+\small
+\smallskip
+\vspace*{-35pt}
+
+\contact{Dimitri Sotnikov}
+{dmitrii.sotnikov@polytechnique.edu $\sbt$ +33 7 45 31 29 81}
+
+\vspace{2mm}
+
+\vspace{2mm}
+\header{Education}
+
+\vspace{2mm}
+\schoolwithcourses{École Polytechnique, CMAP}{2024 -- Present}
+{\textit{CIFRE PhD Thesis:} Path signatures and mean-field games for modeling \\
+electricity markets and battery storage problems. \\
+{\it Supervisors:} Eduardo Abi Jaber, Charles Bertucci, Laurent Tur.}
+
+\schoolwithcourses{Sorbonne University / École Polytechnique}{2023 -- 2024}
+{Master 2 in \textit{Probability and Finance}. GPA: 19 / 20}
+
+\schoolwithcourses{Vega Institute Science Promotion Foundation}{2021 -- 2023}
+{Scholarship program. GPA: 5.00 / 5.00}
+\vspace{}
+{\it Research group:} Numerical experiments in rough volatility modeling, \\
+implementation of the PDE approach for local-stochastic volatility models. \\
+{\it Supervisors:} Charles--Henri Roubinet, Mikhail Zhitlukhin.
+
+\vspace{2mm}
+\schoolwithcourses{Moscow State University}{2021 -- 2022}
+{First year of Master's program in \textit{Applied Mathematics and Computer Science}.
+GPA: 5.00 / 5.00}
+
+{\it Coursework:} Approximation and asymptotics in the superhedging problem for a binary option. \\
+{\it Supervisor:} Sergey Smirnov.
+
+\vspace{2mm}
+\schoolwithcourses{Moscow State University}{2017 -- 2021}
+{Bachelor in \textit{Applied Mathematics and Computer Science} (2021). 
+GPA: 4.97 / 5.00}
+
+{\it Bachelor thesis:} Proximity of Bachelier and Samuelson models for different metrics. \\
+{\it Supervisor:} Sergey Smirnov.
+
+\vspace{2mm}
+
+\header{Work Experience}
+
+\vspace{2mm}
+\schoolwithcourses{PhD Quantitative Analyst, Engie Global Markets}{Dec 2024 -- Present}
+{}
+
+\schoolwithcourses{Quantitative Analyst Intern, Engie Global Markets}{Apr 2024 -- Oct 2024}
+{Development and calibration of a stochastic volatility HJM model. \\
+{\it Supervisors:} Laurent Tur, Eduardo Abi Jaber.}
+
+\schoolwithcourses{Scientific Coordinator, Vega Institute Science Promotion Foundation}{Dec 2022 -- Aug 2023}
+{Curriculum development, assistance with the organization of conferences and schools, \\
+search for contacts and communication with lecturers and research group leaders.}
+
+\schoolwithcourses{Quantitative Research Intern, VTB Capital}{Aug 2022 -- Jan 2023}
+{Contributed to the development of a C\# derivative pricing library, \\
+developed spreadsheets for risk evaluation.}
+
+\schoolwithcourses{Expert, Center of Economic Analysis, Interfax}{Jul 2021 -- Jan 2022}
+{Development and implementation of credit scoring models \\
+for small and medium-sized enterprises.}
+
+\vspace{2mm}
+
+\header{Awards}
+\begin{achievements}
+    \item European Best Quant Finance Thesis Award (2024) — TopQuants \& EY
+\end{achievements}
+
+
+\header{Publications}
+\vspace{2mm}
+\begin{achievements}
+\item Abi Jaber, E., Attal, E., Sotnikov, D. (2026). \textit{Stochastic control with signatures via Riccati equations on the tensor algebra.} arXiv:2607.03986.
+\item Abi Jaber, E., Attal, E., Sotnikov, D. (2026). \textit{Affine Structure of the Brownian Signature.} arXiv:2606.29622.
+\item Abi Jaber, E., Rey, C., Sotnikov, D. (2026). \textit{Malliavin calculus for signatures with applications to finance.} arXiv:2604.22528.
+\item Abi Jaber, E., Attal, E., Sotnikov, D. (2025). \textit{Efficient Simulation of Hawkes Processes using their Affine Volterra Structure.} arXiv:2511.13554.
+\item Abi Jaber, E., Sotnikov, D. (2025). \textit{Exponentially Fading Memory Signature.} arXiv:2507.03700.
+\item Abi Jaber, E., Gassiat, P., Sotnikov, D. (2025). \textit{Martingale property and moment explosions in signature volatility models.} Accepted to Finance and Stochastics. arXiv:2503.17103.
+\item Abi Jaber, E., Bruneau, S., De Carvalho, N., Sotnikov, D., Tur, L. (2025). \textit{Heath--Jarrow--Morton meet lifted Heston in energy markets for joint historical and implied calibration.} Accepted to Quantitative Finance. arXiv:2501.05975.
+\item Smirnov, S., Sotnikov, D., Zanochkin, A. (2024). \textit{Approximation and asymptotics in the superhedging problem for binary options.} Annals of Finance. 1-38. 10.1007/s10436-024-00454-5. 
+\item Smirnov, S., Sotnikov, D. (2021). \textit{Proximity of Bachelier and Samuelson Models for Different Metrics.}
+Review of Business and Economics Studies, 9(3), 52-76. doi:10.26794/2308-944X-2021-9-3-52-76
+\end{achievements}
+
+\header{Conference Talks}
+\vspace{2mm}
+\begin{achievements}
+\item 13th Bachelier World Congress, Bologna, Italy, June 29, 2026. \\ \textit{Signature volatility model: Martingality and Fourier--Laplace transform}.
+\item French Rough Path workshop, Toulouse, France, June 9, 2026. \\ \textit{Chasing Stationarity: Exponentially Fading Memory Signature}.
+\item Stochastic Control and Games for Risk \& Regulation, Hammamet, Tunisia, April 27, 2026. \\ \textit{Chasing Stationarity: Exponentially Fading Memory Signature}.
+\item 18th Colloquium Bachelier, Métabief, France, January 14, 2026. \\ \textit{Chasing Stationarity: Exponentially Fading Memory Signature}.
+\item Stochastics \& Computational Finance, Lisbon, Portugal, September 2, 2025. \\ \textit{Martingality in the Signature Volatility Model}.
+\item 12th General AMaMeF Conference, Verona, Italy, June 27, 2025. \\ \textit{Heath–Jarrow–Morton meet lifted Heston in energy markets for joint historical and implied calibration}.
+\item 17th Colloquium Bachelier, Métabief, France, January 15, 2025. \\ \textit{Martingality in the Signature Volatility Model}.
+\item Quant Careers Symposium, Amsterdam, Netherlands, December 2, 2024. \\ \textit{HJM Stochastic Volatility Model for Energy Markets}.
+\end{achievements}
+
+\header{Seminar Talks}
+\vspace{2mm}
+\begin{achievements}
+\item Seminar of the CMAP MathsFi group, École Polytechnique, Paris, France, May 20, 2026. \\ \textit{Path-dependent stochastic optimal control via  Riccati equation on the tensor algebra}.
+\item Working Group ``Stochastic Methods and Finance'', CERMICS, École des Ponts, Paris, France, March 17, 2026. \\ \textit{Chasing Stationarity: Exponentially Fading Memory Signature}.
+\item DataScience@BI seminar, BI Norwegian Business School, Oslo, Norway, March 3, 2026. \\ \textit{Chasing Stationarity: Exponentially Fading Memory Signature}.
+\item Doctoral Seminar at LPSM, Sorbonne Université, Paris, France, February 24, 2026. \\ \textit{Chasing Stationarity: Exponentially Fading Memory Signature}.
+\item Seminar of the CMAP MathsFi group, École Polytechnique, Paris, France, December 10, 2025. \\ \textit{Chasing Stationarity: Exponentially Fading Memory Signature}.
+\item Global Seminar, Vega Institute, Moscow, Russia, October 4, 2025. (Online) \\ \textit{Chasing Stationarity: Exponentially Fading Memory Signature}.
+\item CEREMADE Young Researcher Days, Caen, France, June 5, 2025. \\ \textit{Probabilistic View on the Signature Method.}
+\item Bachelier Seminar (Doctoral Session), Paris, France, May 2, 2025. \\ \textit{Martingality in the Signature Volatility Model}.
+\item Young Researchers’ Seminar, Université Paris Dauphine-PSL, Paris, February 6, 2025. \\ \textit{Heath–Jarrow–Morton meet lifted Heston in energy markets for joint historical and implied calibration}.
+\item Seminar of the CMAP MathsFi group, École Polytechnique, Paris, France, December 11, 2024. \\ \textit{Martingality in the Signature Volatility Model \& Stationary Signatures.}
+\end{achievements}
+
+\vspace{2mm}
+\header{Professional Service}
+
+\vspace{2mm}
+\schoolwithcourses{Bachelier Seminar}{2024 -- Present}
+{Technical management of the official website. Coordinating communications \\ for the seminar's global mailing list.}
+
+\vspace{2mm}
+\header{Teaching \& Mentorship}
+
+\vspace{2mm}
+\schoolwithcourses{Student Research Project (PSC), École Polytechnique}{2025 -- 2026}
+{Co-supervised a group of five undergraduate students on a six-month research project regarding \\ the application of exponentially fading memory signatures to time-series modeling.}
+
+\vspace{2mm}
+\schoolwithcourses{Research Internship Supervision, Engie Global Markets}{2025}
+{\textit{Student:} Mohammed Taha Belgnaoui (Master 2) \\
+\textit{Topic:} Markovian Approximation of the Volterra iVi Scheme.}
+
+\vspace{2mm}
+\schoolwithcourses{Lecturer, Vega Institute}{2024}
+{Designed and taught the elective course \textit{Non-Markovian Stochastic Volatility Models} (12h).}
+
+\vspace{2mm}
+\schoolwithcourses{Teaching Assistant, Vega Institute}{2023}
+{Led tutorials in \textit{Applied Quantitative Finance II} for advanced undergraduate and master’s students (28h). \\ Developed and graded projects and assignments.}
+
+\vspace{2mm}
+\schoolwithcourses{Teaching Assistant, Vega Institute}{2022}
+{Led tutorials in \textit{Advanced Monte Carlo Methods} for advanced undergraduate and master’s students (20h). \\ Developed and graded research projects, assignments, and final examinations.}
+
+\vspace{2mm}
+\header{Additional Information}
+
+\vspace{2mm}
+\schoolwithcourses{IT Skills}{}
+{Python (numpy, scipy, pandas, scikit-learn, sympy), C++, R, Matlab.}
+
+\schoolwithcourses{Languages}{}
+{English (fluent), French (fluent), Russian (native)}
+
+\end{document}
