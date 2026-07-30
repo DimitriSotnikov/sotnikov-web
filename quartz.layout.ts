@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "Google Scholar": "https://scholar.google.com/citations?user=1uUSI5AAAAAJ&hl=en",
       "LinkedIn": "https://www.linkedin.com/in/dimitri-sotnikov-635b85234/",
-      GitHub: "https://github.com/MrG1raffe",
+      GitHub: "https://github.com/DimitriSotnikov",
     },
   }),
 }
