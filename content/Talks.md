@@ -9,7 +9,7 @@ description: A complete timeline of my research presentations, invited seminars,
 ---
 ## Conference Presentations
 
-* **[International Conference on Computational Finance 2026](https://iccf26.web.ox.ac.uk/)**, Oxford, UK, Sep 3, 2026
+* **[International Conference on Computational Finance 2026](https://iccf26.web.ox.ac.uk/)**, Oxford, UK, Sep 3, 2026  
   *Malliavin calculus for signatures with applications to finance*
 
 * **[13th Bachelier World Congress 2026](https://eventi.unibo.it/bachelier)**, Bologna, Italy, Jun 29, 2026  
