@@ -20,6 +20,8 @@ description: Research papers, preprints, and journal articles.
 
 ## Preprints & Working Papers
 
+* [Martingality in EFM Signature Volatility Models](https://arxiv.org/abs/2610.35022), with Adeline Viot (2026).
+
 * [Stochastic control with signatures via Riccati equations on the tensor algebra](https://arxiv.org/abs/2607.03986), with Eduardo Abi Jaber and Elie Attal (2026).
 
 * [Affine Structure of the Brownian Signature](https://arxiv.org/abs/2606.29622v2), with Eduardo Abi Jaber and Elie Attal (2026).

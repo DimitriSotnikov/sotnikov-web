@@ -4,7 +4,9 @@ description: A complete timeline of my research presentations, invited seminars,
 ---
 ## Upcoming Presentations
 
-- No upcoming presentations 
+* **[Working Group "Mathématiques financières et actuarielles, probabilités numériques"](https://www.lpsm.paris/seminaires/gtfinanceprobanumeriques/index)**, LPSM, Sorbonne Université, Paris, France, Dec 3, 2026
+
+* **[19th Bachelier Colloquium on Mathematical Finance and Stochastic Calculus](https://bachelier27.sciencesconf.org)**, Métabief, France, Jan 10–16, 2027
 
 ---
 ## Conference Presentations
@@ -39,6 +41,9 @@ description: A complete timeline of my research presentations, invited seminars,
 ---
 
 ## Seminar Talks
+
+* **[Global Seminar](https://vega-education.org/global-seminar-eng)**, Vega Institute, Moscow, Russia, Oct 17, 2026. **[Online]**  
+  *Affine Structure of the Brownian Signature: Sig-Volatility Model and Optimal Control*
 
 * **[Seminar of the CMAP MathsFi group](https://cmap.ip-paris.fr/seminaires/gdt-mathsfi)**, École Polytechnique, Paris, France, May 20, 2026  
   *Path-dependent stochastic optimal control via Riccati equation on the tensor algebra*
